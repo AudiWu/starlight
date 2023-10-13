@@ -1,0 +1,53 @@
+---
+title: Starlight Galeri
+description: Temukan situs yang dibuat dengan Starlight dan alat komunitas yang memperluas Starlight!
+---
+
+:::tip[Tambahkan punya Anda!]
+Sudahkah Anda membuat situs menggunakan Starlight atau membuat alat untuk Starlight?
+Buka PR dengan menambahkan link ke halaman ini!
+:::
+
+## Situs
+
+import ShowcaseSites from '../../../components/showcase-sites.astro';
+
+Starlight sudah digunakan di dalam produksi. Ini adalah beberapa situs di sekitar web:
+
+<ShowcaseSites />
+
+Lihat semua [repositori proyek publik yang menggunakan Starlight di GitHub](https://github.com/withastro/starlight/network/dependents).
+
+## Plugin komunitas
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+Alat komunitas, plugin, dan integrasi ini bekerja dengan Starlight untuk memperluas fungsionalitas.
+
+<CardGrid>
+	<LinkCard
+		href="https://www.feelback.dev/blog/new-astro-starlight-integration/"
+		title="FeelBack"
+		description="Tambahkan sistem saran pengguna ke halaman dokumen Anda."
+	/>
+	<LinkCard
+		href="https://github.com/HiDeoo/starlight-blog"
+		title="starlight-blog"
+		description="Tambahkan blog ke situs dokumentasi Anda."
+	/>
+	<LinkCard
+		href="https://github.com/HiDeoo/starlight-links-validator"
+		title="starlight-links-validator"
+		description="Periksa link yang rusak di halaman Starlight Anda."
+	/>
+	<LinkCard
+		href="https://github.com/HiDeoo/starlight-typedoc"
+		title="starlight-typedoc"
+		description="Hasilkan halaman Starlight dari TypeScript dengan menggunakan TypeDoc."
+	/>
+	<LinkCard
+		href="https://github.com/HiDeoo/starlight-openapi"
+		title="starlight-openapi"
+		description="Buat halaman dokumentasi dari spesifikasi OpenAPI/Swagger."
+	/>
+</CardGrid>
